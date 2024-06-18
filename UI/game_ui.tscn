@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3 uid="uid://cejkvaccpdyy3"]
+
+[ext_resource type="Script" path="res://UI/game_ui.gd" id="1_2icey"]
+[ext_resource type="Texture2D" uid="uid://chka5lovap650" path="res://addons/Tiny Swords/UI/Banners/Banner_Horizontal.png" id="1_gqg2n"]
+[ext_resource type="Texture2D" uid="uid://rttmn5cvkdr5" path="res://addons/Tiny Swords/Resources/Resources/M_Idle_(NoShadow).png" id="3_rhlbn"]
+
+[sub_resource type="SystemFont" id="SystemFont_0747n"]
+font_names = PackedStringArray("Arial")
+font_weight = 999
+subpixel_positioning = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_fhk1d"]
+font = SubResource("SystemFont_0747n")
+font_size = 32
+shadow_color = Color(0, 0, 0, 0.972549)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l8jcj"]
+texture = ExtResource("1_gqg2n")
+texture_margin_left = 32.0
+texture_margin_top = 16.0
+texture_margin_right = 32.0
+texture_margin_bottom = 48.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+region_rect = Rect2(32, 48, 128, 128)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fiwur"]
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+shadow_size = 5
+shadow_color = Color(0.054902, 0.054902, 0.054902, 0.470588)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jhssr"]
+atlas = ExtResource("3_rhlbn")
+region = Rect2(40, 48, 56, 56)
+
+[node name="GameUI" type="CanvasLayer"]
+script = ExtResource("1_2icey")
+
+[node name="TimeLabel" type="Label" parent="."]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -45.0
+offset_top = 11.0
+offset_right = 46.0
+offset_bottom = 37.0
+grow_horizontal = 2
+text = "08:00"
+label_settings = SubResource("LabelSettings_fhk1d")
+horizontal_alignment = 1
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_top = 23.0
+offset_right = -19.0
+offset_bottom = 118.0
+grow_horizontal = 0
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxTexture_l8jcj")
+
+[node name="MeatLabel" type="Label" parent="Panel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 15.0
+offset_top = 15.0
+offset_right = 49.0
+offset_bottom = 49.0
+grow_horizontal = 2
+text = "50 "
+label_settings = SubResource("LabelSettings_fiwur")
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 3.0
+offset_right = 96.0
+offset_bottom = 59.0
+texture = SubResource("AtlasTexture_jhssr")

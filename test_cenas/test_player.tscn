@@ -1,0 +1,187 @@
+[gd_scene load_steps=5 format=3 uid="uid://h1ntcggqpv4w"]
+
+[ext_resource type="Texture2D" uid="uid://hey5636tnkyj" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="1_ajur0"]
+[ext_resource type="PackedScene" uid="uid://fupd8j2f25st" path="res://player/player.tscn" id="2_arv6j"]
+[ext_resource type="PackedScene" uid="uid://duuddddsbbiif" path="res://enemies/pawn.tscn" id="3_u4cut"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_a6ekj"]
+line_spacing = 15.0
+
+[node name="TestPlayer" type="Node2D"]
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(2424, 927)
+texture = ExtResource("1_ajur0")
+
+[node name="Label" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 884.696
+offset_top = -843.776
+offset_right = 988.696
+offset_bottom = -819.776
+scale = Vector2(1.9911, 2.6892)
+text = "parado/idie
+"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label2" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 883.696
+offset_top = -668.776
+offset_right = 987.696
+offset_bottom = -644.776
+scale = Vector2(1.9911, 2.6892)
+text = "corre/ run
+"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label3" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 859.696
+offset_top = -465.776
+offset_right = 976.696
+offset_bottom = -441.776
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_side_1
+"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label4" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 861.696
+offset_top = -274.776
+offset_right = 978.696
+offset_bottom = -250.776
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_side_2"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label5" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 858.696
+offset_top = -84.776
+offset_right = 993.696
+offset_bottom = -60.776
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_down_1"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label6" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 858.696
+offset_top = 96.224
+offset_right = 993.696
+offset_bottom = 120.224
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_down_2"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label7" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 879.696
+offset_top = 294.224
+offset_right = 984.696
+offset_bottom = 318.224
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_up_1"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label8" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = 880.696
+offset_top = 478.224
+offset_right = 985.696
+offset_bottom = 502.224
+scale = Vector2(1.9911, 2.6892)
+text = "Attack_up_2"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label9" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = -218.304
+offset_top = -1012.78
+offset_right = -113.304
+offset_bottom = -988.776
+scale = Vector2(4.68253, 4.9729)
+text = "0       1        2        3       4         5"
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="Label10" type="Label" parent="WarriorPurple"]
+anchors_preset = -1
+anchor_left = -0.248
+anchor_top = 0.091
+anchor_right = -0.248
+anchor_bottom = 0.091
+offset_left = -335.304
+offset_top = -858.776
+offset_right = -318.304
+offset_bottom = -589.776
+scale = Vector2(4.68253, 4.9729)
+text = "01234567"
+label_settings = SubResource("LabelSettings_a6ekj")
+autowrap_mode = 1
+uppercase = true
+visible_characters_behavior = 1
+
+[node name="WarriorPurple2" type="Sprite2D" parent="WarriorPurple/Label10"]
+position = Vector2(519.377, 144.785)
+scale = Vector2(0.21356, 0.20109)
+texture = ExtResource("1_ajur0")
+flip_h = true
+
+[node name="Player" parent="." instance=ExtResource("2_arv6j")]
+position = Vector2(200, 217)
+
+[node name="Pawn" parent="." instance=ExtResource("3_u4cut")]
+position = Vector2(404, 377)
+
+[node name="Pawn2" parent="." instance=ExtResource("3_u4cut")]
+position = Vector2(810, 509)
+
+[node name="Pawn3" parent="." instance=ExtResource("3_u4cut")]
+position = Vector2(728, 270)
