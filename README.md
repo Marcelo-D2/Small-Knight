@@ -28,7 +28,19 @@ Durante o game o objetivo do jogador é derrotar o máximo de inimigos possível
 - Carne Comum: Recupera 10 pontos de vida.
 - Carne dourada: Rara, recupera 100 pontos de vida.
 - Vida Máxima: O personagem principal tem um máximo de 100 pontos de vida.
-- 
+
+### Technologias
+<p display="inline-block">
+  <img width="46" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg" alt="godot-logo"/>
+  <img width="46" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="photoshop-logo"/>
+</p>
+
+### Ferramenta de desenvolvimento
+
+<p display="inline-block">
+  <img width="46" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg" alt="godot-logo"/>
+</p>
+
 ### 🛠️ Conclusões
 Small Knight - Humans & Goblins foi desenvolvido na engine Godot, das diversas engines disponíveis no mercado, a Godot foi a mais simples para desenvolver esse projeto.
 
