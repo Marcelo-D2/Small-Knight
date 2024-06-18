@@ -1,39 +1,43 @@
-# 🛡️ Strong Warrior
-Um Jogo Desenvolvido em Godot
+# :crossed_swords: Small Knight - Humans & Goblins
+Um Projeto de um Game Desenvolvido em Godot
 
-Desenvolvido durante um curso da DIO, Strong Warrior é um jogo emocionante com interfaces gráficas estilizadas, suporte para teclas de PC e controle de console. Teste a versão beta do jogo, usem esse link: https://lucikelly-santos.itch.io/strong-warrior. 🎮
+<img src="https://live.staticflickr.com/65535/53800694515_d81b1c87cf_b.jpg">
+
+Exemplo de um projeto de um game desenvolvido durante um Bootcamp da DIO, Small Knight - Humans & Goblins é um game de sobrevivência, com suporte para teclas de PC e controle de console.
 
 ### 🎯 Objetivo do Jogo
-O objetivo principal de Strong Warrior é derrotar o máximo de inimigos possível e sobreviver pelo maior tempo que conseguir. Utilize o ritual automático do personagem principal para causar dano nos inimigos e ataques com a espada para se defender.
+Durante o game o objetivo do jogador é derrotar o máximo de inimigos possível e sobreviver pelo maior tempo que conseguir. O personagem principal usa o ataque de espadas como ataque básico, e uma skill automática.
 
 ### 🦸‍♂️ Características do Jogo
-- **Personagem Principal**
+- **Personagem Principal: Cavaleiro**
     
-    **Ritual Automático**: Causa dano contínuo nos         inimigos.
+    **Skills: Purple Ritual** - Causa dano contínuo aos inimigos.
     
-    **Ataques de Espada**: Proferidos pelo personagem principal.
+    **Ataques de Espada** - Ataque básico usado pelo personagem principal.
 - **Inimigos**:
     
-    **Goblin**: O inimigo mais forte.
+    **Goblin Gigante**: O inimigo mais forte.
     
-    **Construtor**: Inimigo de dificuldade média.
+    **Hobgoblin**: Inimigo de dificuldade média.
     
     **Ovelha**: Derrotada com facilidade.
 
-🍖 **Drops de Recursos
-Vida**: Inimigos derrotados podem dropar carne que recupera vida.
+🍖 **Drops de Recursos**
+    **Life Regeneration**: Inimigos derrotados podem dropar um item (carne) que regenera o  life do personagem.
 
 - Carne Comum: Recupera 10 pontos de vida.
-- Carne de Ouro: Rara, recupera 100 pontos de vida.
+- Carne dourada: Rara, recupera 100 pontos de vida.
 - Vida Máxima: O personagem principal tem um máximo de 100 pontos de vida.
+- 
 ### 🛠️ Conclusões
-Strong Warrior foi totalmente desenvolvido no Godot, uma ferramenta poderosa e intuitiva que facilita a criação de jogos com diversos recursos internos prontos para uso.
+Small Knight - Humans & Goblins foi desenvolvido na engine Godot, das diversas engines disponíveis no mercado, a Godot foi a mais simples para desenvolver esse projeto.
 
 ### 🔗 Links Úteis
-Som: https://pixabay.com/pt/music/search/loop/
 
-Pacote de Artes:  https://pixelfrog-assets.itch.io/tiny-swords
+Música: https://pixabay.com/pt/music/search/batalhas/
+
+Pacote de Assets:  https://pixelfrog-assets.itch.io/tiny-swords
 
 Documentação do Godot: https://godotengine.org/ 
 
-Versão Jogavel: https://lucikelly-santos.itch.io/strong-warrior
+Link do Game: https://marcelo-d2.itch.io/small-knight
